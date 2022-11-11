@@ -1,0 +1,139 @@
+//HTML//
+<head>
+    <link rel="stylesheet" href="messenger-responsive.css"/>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="header">
+            <div class="logoContainer">
+                <img src="https://bit.ly/3frAiW2"  class="logo"/>
+            </div>
+            <div class="menuContainer">
+                <a href="https://www.messenger.com/rooms" class="menuItem">Rooms</a>
+                <a href="https://www.messenger.com/features" class="menuItem">Features</a>
+                <a href="https://www.messenger.com/privacy" class="menuItem">Privicy & Safety</a>
+                <a href="https://developers.facebook.com/products/messenger/" class="menuItem">For developers</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <div class="inner">
+                    <h1 class="titleHeader">
+                        Be  together, whenwever.
+                    </h1>
+                    <div class="description">
+                        A simply way to text,video chat and plan throuhg all in one place.
+                    </div>
+                    <input type="text" class="blockElement" placeholder="Email address or phone number"/>
+                    <input type="password" class="blockElement" placeholder="Password"/>
+                    <button class="blockElement myanmar">Sign in</button>
+                    <div class="inputSpan">
+                        <input type="checkbox" />
+                        <span>Keep me signed in</span>
+                    </div>
+                    <div class="password">Forgot your password?</div>
+                    <img src="" />
+                </div>
+            </div>
+            <div class="right">
+                <img src="https://bit.ly/3U0cpUl" class="rightImage"/>
+            </div>
+
+        </div>
+        <div class="footer">So many ways to connect with all your friends</div>
+    </div>
+        
+    
+</body>
+</html> 
+
+//CSS//
+.mainContainer{
+    width: 1024px;  
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titleHeader{
+    margin-bottom: 20px;
+}
+.description{
+    margin-bottom: 20px;
+}
+
+logoContainer{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    width: 100%;
+  
+}
+.left{
+    display: inline-block ;
+    width: 40%;
+   
+}
+.inner{
+    width: 80%;
+}
+.right{
+    display: inline-block;
+    width: 40%;
+   
+}
+.container{
+}
+.menuItem{
+    text-decoration: none;
+    color:inherit;
+    margin-left: 10px;
+}
+.menuItem:hover{
+  
+    border-bottom-style: solid;
+}
+.myanmar{
+    background-color:#0084ff;
+    border: none;
+    border-right: 30px;
+    color:lightgrey
+    padding: 2px 20px 0px;
+    font-size: 19px;
+    height:40px;
+    width: 100px;
+}
+.inputSpan{
+    margin-bottom: 20px;
+}
+.password{
+    margin-bottom: 20px;
+}
+.blockElement{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: lightgray;
+    height: 35px;
+    width: 300px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+.rightImage{
+    width: 220%;
+}
+.footer{
+    text-align: center;
+   
+    font-size: 40px;
+    margin-top: 50px;
+
+}
